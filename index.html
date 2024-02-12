@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My portfolio</title>
+  <!-- googlefont link  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Libre+Baskerville:wght@400;700&family=Open+Sans:ital,wght@0,300;1,300&family=Outfit:wght@300&family=Ultra&display=swap"
+    rel="stylesheet">
+  <!-- ends here -->
+  <!-- link for boxicon -->
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <!-- ends here -->
+
+  <!-- google font link  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Ultra&display=swap"
+    rel="stylesheet">
+  <!-- ends here -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+
+<body class="font-sans bg-gray-800 ">
+  <nav class="bg-red-900 p-2 lg:p-4 fixed top-0 left-0 right-0 ">
+    <div class="container mx-auto  flex justify-between items-center">
+      <!-- Logo -->
+      <a href="#" style="font-family: 'Josefin Sans', sans-serif;" class="text-gray-300 text-xl hover:text-red-400 hover:underline ">GentleOlawale</a>
+
+      <!-- Navigation Links -->
+      <div style="font-family: 'Libre Baskerville', serif;" class="hidden md:flex mx-auto space-x-10">
+        <a href="#" class="text-gray-300 hover:text-red-400 active:bg-violet-700">Work</a>
+        <a href="#" class="text-gray-300 hover:text-red-400 active:bg-violet-700">Stack</a>
+        <a href="#" class="text-gray-300 hover:text-red-400 active:bg-violet-700">Projects</a>
+        <a href="#" class="text-gray-300 hover:text-red-400 active:bg-violet-700">Contact</a>
+        
+        
+
+      </div>
+       <div class="space-x-3 md:px-4">
+      <a href="https://twitter.com/G3NTL3_001"><box-icon name='twitter' type='logo' color='#D1D5DB' ></box-icon></a>
+      <a href="https://www.facebook.com/harmeedo.lawal"><box-icon name='facebook-circle' type='logo' color='#D1D5DB' ></box-icon></a>
+      <a href="https://t.co/EegwYBOLr4"><box-icon type='logo' color='#D1D5DB' name='github'></box-icon></a>
+      <a href="https://www.linkedin.com/in/lawal-hammed-828112287/"><box-icon name='linkedin-square' type='logo' color='#d1d5db' ></box-icon></a>
+     <!-- <a href="mailto:hammedlawal412@.com"> <box-icon name='envelope' color='#d1d5db' ></box-icon></a> -->
+       </div>
+      <button class="border border-gray-300 border-dotted border-4 hover:text-red-400 hover:bg-gray-600 text-gray-300 px-5 py-2 hidden md:block lg:block "><b>Hire Me</b></button>
+      <div>
+
+        
+
+
+        <!-- Mobile Menu Button (Hidden on larger screens) -->
+        <div class="md:hidden">
+          <button id="mobile-menu-toggle" class="text-white hover:text-red-400 focus:outline-none">
+            <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+  </nav>
+
+  <!-- Mobile Menu (Hidden on larger screens) -->
+  <div id="mobile-menu" class="md:hidden fixed top-11 inset-x-0   left-0 w-full    bg-gray-800">
+    <div style="font-family: 'Libre Baskerville', serif;" class="container mx-auto py-2 px-4 mt-  ">
+      <a href="#" class="block text-white py-2 hover:text-red-400">Work</a>
+      <a href="#" class="block text-white py-2 hover:text-red-400">Stack </a>
+      <a href="#" class="block text-white py-2 hover:text-red-400">Projects</a>
+      <a href="#" class="block text-white py-2  hover:text-red-400">Contact</a>
+            <button class=" text-white px-5 py-2 border border-red-100 border-dotted border-4 hover:text-red-400 hover:bg-gray-600 text-white  "><b>Hire Me</b></button>
+
+    </div>
+
+  </div>
+
+  <!-- JavaScript to toggle mobile menu -->
+  <script>
+    document
+      .getElementById("mobile-menu-toggle")
+      .addEventListener("click", function () {
+        document.getElementById("mobile-menu").classList.toggle("hidden");
+      });
+  </script>
+
+  
+
+
+
+  <!-- section a -->
+  <section class="pb-20  " style="background-image: url(html-system-websites-concept.jpg);">
+  <div class="text-black flex  flex-col-reverse  lg:flex-row md:mt-20 lg:mt-20  ">
+    <div class="boxa md:w-3/5 mx-auto md:px-4 px-3  md:pt-20 ">
+      <span class="font md:text-2xl hover:bg-sky-700 md:px-4 text-gray-300" style="font-family: 'Libre Baskerville', serif;">Hello
+        World!</span>
+      <p style="font-family: 'Libre Baskerville', serif;" class="md:text-5xl text-2xl md:px-4 py-2 text-gray-300  md:py-5">I'm
+        <span class="font-black text-red-900">Gentle, <br> A software developer</p></span>
+      <p style="font-family: 'Libre Baskerville', serif;" class="t  md:px-4  text-gray-300 	w-full	py-2	">Drawing upon my expertise, I excel in developing exceptional user experiences, seamlessly translating design concepts into fully functional websites. Additionally, I am adept at fostering effective collaboration within teams, resulting in the delivery of outstanding web solutions.</p>
+        <a href="https://wa.me/08023855184"><button class="mx-4 px-6 py-2 border border-red-400 border-b-4 bg-gray-300  outline-none border-t-0 border-r-0 border-l-4"><b>Reach out</b></button></a>
+    </div>
+    <div class="boxb mx-auto md:w-2/3 md:py-12 w-full my-16 ">
+      <img src="olawale.JPG" class=" mx-auto   rounded-full w-5/12 h-2,3 " alt="">
+    </div>
+  </div>
+
+</section>
+  <!-- <hr class="h-5 hidden md:block lg:block sm:block "> -->
+  <!-- section b  -->
+<!--  -->
+  <section class="flex md:flex-row flex-col md:place-content-evenly  px-3 py-5 ">
+    <p class="  hidden md:block  border-red-950 text-gray-f300	 text-3xl center py-32 px-10">
+      My Stack <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAAahJREFUaEPtmEFugzAQRT1NblZgEQlFclDOkEWltCcoZyjqpjkD2UesOUDIGbLIBaIuUlNRNpUqVYrHxjMwrBnZb/7oYQxqYg9MjFcJ8NgTl4Ql4ZF1QEZ6ZIH+wZGEJeGRdUBGemSBirSCjXRVlkV9Om3zPDdDTlU44P2+VQCHz/lcp2l6HQo6LHBP2cBslkTL5WUIaArAHecZjFlEWdb4hqYC3HFelTE6zrKDT2hKwB1nJ7BNrPXOFzQ14J4ToKiPx2cfBqcJ3EN7MThdYE8Gpw7s3OAcgJ0anAuwM4OjgKuyzK0/HwCvNrWtUm+J1lub2h8X2hZ2dVV3Hg7xIAzOExhhcNbAD7fb4nG9Pt8zZDyBg410AGmBUu+R1k/3pPr7XVTCtotaCu9Lte1LvFoVmHW5ADv7deQAfAFjEleXA9SBGxsT/zfydIERJuYIvKubZjOFCwAnJuaSsDMTcwB2amLqwM5NTBfYk4mpAn/4MjFJYMx5GFMb7OCB2TSmVoAx3eNQKwlzSAmzR0kY0z0OtZIwh5Qwe5SEMd3jUCsJc0gJs8fJJfwNvt/dPcJKkIUAAAAASUVORK5CYII="/>
+    </p>
+
+
+
+    <center class="font-bold md:hidden block text-4xl text-gray-300">My stack <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAAb5JREFUaEPtl0FOw0AMRf9nywUqDoHElj1SrwISvQJwBSrBVZDYs0XiEIgLsMWV1QGJFKoktpNOYm+ituOJn/84PyVmFpwZLxJ46oqnwqnwxDqQR3pigu7gpMKp8MQ6kEd6YoLmQ2vQIy0itwBuGm2/I6nfDxIJHNnmVHjb3TzSkacsZziyuznDOcOR52u7d85wZI9zhnOGI89XznB8d6ufYRG5B3Ad36pfd1iTXPW9p8mWROQIwBOAi74FdMx7BrAk+dUx72e5CVh3EZFjAC8ATvsW0TLvDcA5yc+W6/9cZgYu0AsArwD0GhEfAM5I6tUULsAFWhVWpVVxz1BFVVlV2BxuwAVaZ1lnWmfbI3RWdWZ1dl3CFbhA61Nbn94esSK59tjoew934AL9AODSWOgjySvjHjvpUcBWuzLbz3+NCgEuKve1Kxf7GRy4QHe1Kzf7GQW4QLe1K1f7GQ24pV2528+owC3syt1+RgfeY1ch9nMowE27CrOfgwBu2JV+NP/76fpiEubD+woRkRP9neR714Kt60cBthZtyU9gS/dqyE2Fa1DJUmMqbOleDbmpcA0qWWpMhS3dqyF3dgpvADOnrz1q56QoAAAAAElFTkSuQmCC"/></center>
+
+
+
+
+    <div class="mx-auto bg-red-900 w-full md:w-2/5 md:px-5 space-y-6  md:mx-5">
+      <div class="flex flex-row pt-5 gap-4 place-content-between  ">
+        <button class="px-8 py-2 text-gray-300 font-bold "><img src="bxl-html5.svg" class="w-14" alt=""><span>Html5</span></button><br>
+        <button class="px-8 py-2  text-gray-300 font-bold"><img  class="w-14" src="bxl-tailwind-css.svg" alt="">Tailwindcss</button>
+      </div>
+      <div class="flex flex-row gap-4 place-content-evenly ">
+        <button class="px-8 py-2  text-gray-300 font-bold"><img class="w-14" src="bxl-react.svg" alt="">Reactjs</button>
+        <button class="px-8 py-2  text-gray-300 font-bold"><img class="w-14" src="bxl-css3.svg" alt="">Css3</button>
+        <button class="px-8 py-2  text-gray-300 font-bold"><img class="w-14" src="bxl-git.svg" alt="">Git</button>
+      </div>
+      <div class="flex flex-row gap-4 place-content-between pb-5 ">
+        <button class="px-8 py-2  text-gray-300 font-bold"><img class="w-14" src="bxl-github.svg" alt="">Github</button>
+      <button class="px-8 py-2  text-gray-300 font-bold"><img class="w-14" src="bxl-javascript.svg" alt="">JavaScript</button>
+      </div>
+    </div>
+  </section>
+
+   <center class="text-4xl text-gray-300 font-extrabold ">Send me a message</center>
+  <!-- Contact me  -->
+  <div class= " mx-auto my-2 md:w-1/3 w-2/3 py-5 mx-2 flex flex-col place-content-evenly bg-gray-300 px-3 space-y-6">
+    <center><b>Kindly fill this form and drop your message. Expect reply in a giffy!!</b></center>
+    <input type="text" name="" id="name" class="py-2 pl-3 outline-none"  placeholder="Enter your fullname">
+    <input type="email" name="email" id="" class="py-2 pl-3   outline-none " placeholder=" Enter your email">
+    <input type="text" name="message" id="" class="py-2 pl-3 outline-none" placeholder=" Drop me a message">
+    <button class="hover:bg-gray-200 hover:text-red-600 text-xl hover: px-5 py-3 bg-grey-400 font-bold text-black border border-red-100">Submit</button>
+  </div>
+  
+  <!-- footer starts here -->
+<footer class="bg-gray-600 flex flex-col md:flex-row text-gray-300 mt-10 " style="font-family: 'Libre Baskerville', serif;">
+<div class="flex flex-col my-16 space-y-2 mx-auto">
+  <h1 class="underline">Credits</h1>
+  <ol>
+  <li><a href="">>> Boxicon</a</li>
+  <li><a href="">>> tailwindcss</a></li>
+  <li><a href="">>> Google fonts</a></li>
+  <li><a href="">>> Visual studio code</a></li>
+  </ol>
+</div>
+
+<div class="space-y-2 mx-auto my-16 ">
+<center class="space-y-2">
+  <h3>Checkout more of my project  <a href="https://github.com/G3ntl3" class="underline"> Github account</a> </h3>
+  <!-- <button class="bg-red-900 px-5 py-2 rounded-2xl"><a href="">Github acc</a></button> -->
+</center>
+<center>
+  © LawalHammedOlawale
+</center>
+
+
+</div>
+
+</footer>
+
+
+
+
+</body></html>
+<!-- style="font-family: 'Libre Baskerville', serif;" -->
